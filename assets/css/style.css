@@ -16,11 +16,11 @@ main {
 }
 
 .ma-class {
-    background-color: rgb(111, 111, 163);
+    background-color: rgb(255, 255, 255);
 }
 
 #mon_id {
-    background-color: rgb(206, 87, 50);
+    background-color: rgb(120, 206, 50);
 }
 
 img {
@@ -32,9 +32,7 @@ img {
 h1 {
     text-align: center;
     margin: 1rem;
-}
-h3(:nth-child()) {
-    margin-bottom: 100px;
+
 }
 fieldset {
     display: flex;
@@ -50,8 +48,15 @@ label {
     display: block;
     margin: 5px auto;
 }
+
 input[type='submit']{
     padding: 10px;
     border-radius: 5px;
     cursor:pointer;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+
 }
